@@ -25,9 +25,30 @@ data_x = np.arange(x_min, x_max, 1 / float(SCALE)).reshape(-1, 1) #reshape(-1, 1
 data_ty = data_x ** 2
 data_vy = data_ty + np.random.randn(len(data_ty), 1) * 0.5 #ノイズを乗せる
 
+###分類、回帰問題用
+#学習データ/テストデータに分割
+def split_train_test(array):
+    length = len(array) #テストデータの長さ
+    n_train = int(length * (1-TEST_RATE))
 
+    indices = list(range(length))
+    np.random.shuffle(indices)
+    idx_train = indices[:n_train]
+    idx_test = indices[n_train:]
 
+    return sorted(array[idx_train]), sorted(array[idx_test])
 
+#インデックスリストを分割
+indices = np.arange(len(data_x))
+idx_train, idx_test = split_train_test(indices)
+
+#学習データ
+x_train = data_x[idx_train]
+y_train = data_vy[idx_train]
+
+#テストデータ
+x_test = data_x[idx_test]
+y_test = data_ty[idx_test]
 
 ##グラフ描画
 #分析対象点の散布図
@@ -41,7 +62,7 @@ plt.xlim(x_min, x_max)
 plt.ylim(y_min, y_max)
 
 #凡例の表示位置
-plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
+plt.legend(bbox_to_anchor=(0.6, 1), loc='upper left', borderaxespad=0)
 
 #グラフを表示
 plt.show()
