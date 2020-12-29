@@ -48,7 +48,7 @@ y_train = data_vy[idx_train]
 
 #テストデータ
 x_test = data_x[idx_test]
-y_test = data_ty[idx_test]
+y_test = data_vy[idx_test]
 
 ##グラフ描画
 #分析対象点の散布図
