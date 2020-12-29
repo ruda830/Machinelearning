@@ -57,7 +57,7 @@ y_test = data_vy[idx_test]
 #-----------------------------------
 
 from sklearn import linear_model
-
+'''
 ##1次式で回帰させる場合
 X1_TRAIN = x_train
 X1_TEST = x_test
@@ -81,7 +81,7 @@ model.fit(X2_TRAIN, y_train)
 #グラフに描画
 plt.plot(x_test, model.predict(X2_TEST), linestyle='--', label='poly deg 2')
 
-
+'''
 ##次は9次式で回帰させる場合
 X9_TRAIN = np.c_[x_train**9, x_train**8, x_train**7, x_train**6, x_train**5, x_train**4,
                  x_train**3, x_train**2, x_train]
@@ -95,8 +95,8 @@ model.fit(X9_TRAIN, y_train)
 #グラフに描画
 plt.plot(x_test, model.predict(X9_TEST), linestyle='-', label='poly deg 9')
 
-'''
 
+'''
 ##データの表示
 plt.scatter(x_train, y_train, c='black', s=30, marker='v', label='train')
 plt.scatter(x_test, y_test, c='black', s=30, marker='x', label='test')
