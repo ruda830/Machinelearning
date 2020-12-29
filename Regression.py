@@ -69,6 +69,7 @@ model.fit(X1_TRAIN, y_train)
 #グラフに描画
 plt.plot(x_test, model.predict(X1_TEST), linestyle='-.', label='poly deg 1')
 
+'''
 ##次は2次式で回帰させる場合
 X2_TRAIN = np.c_[x_train**2, x_train]
 X2_TEST = np.c_[x_test**2, x_test]
@@ -94,7 +95,7 @@ model.fit(X9_TRAIN, y_train)
 #グラフに描画
 plt.plot(x_test, model.predict(X9_TEST), linestyle='-', label='poly deg 9')
 
-
+'''
 
 ##データの表示
 plt.scatter(x_train, y_train, c='black', s=30, marker='v', label='train')
