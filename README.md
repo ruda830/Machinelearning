@@ -68,3 +68,14 @@ https://bellcurve.jp/statistics/course/
 推定・検定
 確率
 回帰
+
+統計検定２級に楽に合格する方法
+https://qiita.com/okoppe8/items/6caca7ab6509edf0c497
+
+おすすめ本
+https://www.amazon.co.jp/dp/4774173312
+
+中学・高校数学から統計学入門
+https://asanonaoki.com/statistics/statistics4.html
+
+
