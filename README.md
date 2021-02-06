@@ -63,3 +63,8 @@ https://qiita.com/akiyoshi_sasaki/items/c81032c1683f69ff9d11
 
 統計WEB
 https://bellcurve.jp/statistics/course/
+
+
+推定・検定
+確率
+回帰
