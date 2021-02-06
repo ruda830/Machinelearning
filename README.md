@@ -43,3 +43,16 @@
 (12/30)
 イントロのクラスタリング、分類問題を解いた。
 
+(2/6)
+統計の勉強した。
+
+統計検定2級の範囲
+https://www.toukei-kentei.jp/wp-content/uploads/grade2_hani_181214.pdf
+
+実際の例(オープンアクセス)
+https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4J2J1302/_pdf/-char/ja
+
+良さげな本
+https://www.amazon.co.jp/%E6%96%B0%E8%A3%85%E6%94%B9%E8%A8%82%E7%89%88-%E7%8F%BE%E4%BB%A3%E6%95%B0%E7%90%86%E7%B5%B1%E8%A8%88%E5%AD%A6-%E7%AB%B9%E6%9D%91-%E5%BD%B0%E9%80%9A/dp/4780608600
+
+
