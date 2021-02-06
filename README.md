@@ -55,4 +55,11 @@ https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_4J2J1302/_pdf/-ch
 良さげな本
 https://www.amazon.co.jp/%E6%96%B0%E8%A3%85%E6%94%B9%E8%A8%82%E7%89%88-%E7%8F%BE%E4%BB%A3%E6%95%B0%E7%90%86%E7%B5%B1%E8%A8%88%E5%AD%A6-%E7%AB%B9%E6%9D%91-%E5%BD%B0%E9%80%9A/dp/4780608600
 
+Rで統計
+https://shohei-doi.github.io/notes/posts/2019-04-04-stats-r/
 
+統計検定２級のチートシート
+https://qiita.com/akiyoshi_sasaki/items/c81032c1683f69ff9d11
+
+統計WEB
+https://bellcurve.jp/statistics/course/
