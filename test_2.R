@@ -11,4 +11,6 @@ summary(y)
 ks.test(x, "pnorm", mean = mean(x), sd=sd(x)) #-> p-value=0.9309 正規分布
 ks.test(y, "pnorm", mean = mean(y), sd=sd(y))
 
-#
+#等分散性の検定(F検定)
+var.test(x)
+
