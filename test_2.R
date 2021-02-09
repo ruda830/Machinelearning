@@ -12,5 +12,5 @@ ks.test(x, "pnorm", mean = mean(x), sd=sd(x)) #-> p-value=0.9309 正規分布
 ks.test(y, "pnorm", mean = mean(y), sd=sd(y))
 
 #等分散性の検定(F検定)
-var.test(x)
+var.test(y,x) #->p-value = 0.1446 有意水準α=0.05とすると、2群の母分散は等しい
 
