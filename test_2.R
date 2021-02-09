@@ -14,3 +14,5 @@ ks.test(y, "pnorm", mean = mean(y), sd=sd(y))
 #等分散性の検定(F検定)
 var.test(y,x) #->p-value = 0.1446 有意水準α=0.05とすると、2群の母分散は等しい
 
+#t検定
+t.test(x,y,var.equal = T)
