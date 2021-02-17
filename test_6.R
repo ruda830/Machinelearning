@@ -5,3 +5,6 @@ weight <- c(65,70,80,82)
 halc <- c(8,5,10,11)
 dmdata <- data.frame(bloods,weight,halc)
 dmdata
+
+#相関行列
+round(cor(dmdata),4)
