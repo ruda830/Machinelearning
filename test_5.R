@@ -5,3 +5,6 @@ cor(height, weight, method="pearson")
 
 #無相関検定
 cor.test(height, weight, method="pearson")
+
+#t = 4.4471, df = 4, p-value = 0.01127  cor 0.9120128 
+#tはt値、dfは自由度、p-valueはp値、cor相関係数
