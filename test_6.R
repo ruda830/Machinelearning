@@ -14,3 +14,6 @@ pairs(dmdata)
 
 #重回帰分析
 (bloods.lm <- lm(bloods~.,data=dmdata))
+
+#作製したモデルの評価
+summary(bloods.lm)
