@@ -8,3 +8,6 @@ dmdata
 
 #相関行列
 round(cor(dmdata),4)
+
+#対散布図
+pairs(dmdata)
