@@ -4,3 +4,10 @@
 #従属変数はシステムからの出力(output)
 
 #散布図は回帰分析や2変数の数式モデルを求める数理モデル化につかえる
+data(women)
+plot(women) #height:xとweight:y
+
+data(iris)
+plot(iris[,1:4])
+
+#petal.Lengthとpetal.Widthの相関がつよい
