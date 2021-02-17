@@ -11,3 +11,6 @@ round(cor(dmdata),4)
 
 #対散布図
 pairs(dmdata)
+
+#重回帰分析
+(bloods.lm <- lm(bloods~.,data=dmdata))
