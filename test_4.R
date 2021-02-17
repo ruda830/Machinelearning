@@ -1,4 +1,5 @@
 data(USArrests)
+
 #デンドログラム
 #distで相互の変数間の距離を求める
 USArrests.d <- dist(USArrests)
